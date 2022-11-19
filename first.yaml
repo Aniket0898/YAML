@@ -1,0 +1,20 @@
+Name : Aniket
+Age : 24
+Skills :
+  cloud : AWS
+  Language : python
+  OS : Linux
+Education :
+  - Degree-BE in electronics and telecommunication
+  - Diploma-Diploma in electronics and telecommunication
+Roles preferred : |
+  Devops Engineer
+  Solution Architect
+  Cloud Enginner
+List of servers :
+  Server_1 :
+    Name : EC2_Ubuntu
+    Volume : 8GB
+  Server_2 :
+    Name : EC2_Windows
+    Volume : 30GB

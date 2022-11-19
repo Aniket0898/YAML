@@ -1,0 +1,67 @@
+YAML
+
+key value pair //////////////////////////////////////////////////////////
+
+syntax
+key : value
+
+e.g
+name : aniket    // always use space before and after samicolen 
+
+objects  ////////////////////////////////////////////////////////
+
+syntax
+
+object name :
+	key : values    // first space indentation or tab
+
+e.g
+
+db :
+	image: postgres
+
+List ///////////////////////////////////////////////////////////
+
+syntax
+
+list name :
+	- value1 in list
+	- value2 in list
+	- value3 in list
+
+e.g
+
+Education :
+  - Degree-BE in electronics and telecommunication
+  - Diploma-Diploma in electronics and telecommunication
+
+multiline comments ///////////////////////////////////////////////////////////////////////
+
+syntax
+
+key name : |
+	value1
+	value1
+
+E.g
+
+Roles preferred : |
+	Devops Engineer
+	Solution Architect
+	Cloud Enginner
+
+list of objects /////////////////////////////////////////////////////
+
+syntax
+
+Object key :
+	object name :
+		key : values
+		key : values
+	object name :
+		key : values
+		key : values
+
+validate in cmd
+python test_yaml.py
+	
